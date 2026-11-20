@@ -23,6 +23,12 @@ const usersSchema = new mongoose.Schema({
     watchlist:[{
         type: String,
     }],
+    following:[{
+        type: String,
+    }],
+    followers:[{
+        type: String,
+    }],
     cineWatch:{
         cineWatchState:{
             type: String,
